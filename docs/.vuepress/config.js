@@ -21,6 +21,19 @@ module.exports = {
                 children: [
                     { title: "Redis安装", path: "/redis/Redis安装说明" }
                 ],
+            },
+            {
+                title: "JAVA",
+                collapsable: true, // 不折叠
+                children: [
+                    {
+                        title: "登录",
+                        collapsable: true, // 不折叠
+                        // children:[
+                        //     { title: "基于Session方案实现登录", path: "/java/基于Session方案实现登录" }
+                        // ]
+                    }
+                ],
             }
 
         ]
