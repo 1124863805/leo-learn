@@ -23,18 +23,20 @@ module.exports = {
                 ],
             },
             {
-                title: "JAVA",
+                title: "java",
                 collapsable: true, // 不折叠
                 children: [
                     {
-                        title: "登录",
+                        title: "登录方案",
                         collapsable: true, // 不折叠
-                        // children:[
-                        //     { title: "基于Session方案实现登录", path: "/java/基于Session方案实现登录" }
-                        // ]
-                    }
+                        children: [
+                            { title: "基于Session方案实现登录方案", path: "/java/基于Session方案实现登录方案" }
+                        ]
+                    },
+                  
                 ],
-            }
+            },
+
 
         ]
 
