@@ -30,7 +30,8 @@ module.exports = {
                         title: "登录方案",
                         collapsable: true, // 不折叠
                         children: [
-                            { title: "基于Session方案实现登录方案", path: "/java/基于Session方案实现登录方案" }
+                            { title: "基于Session方案实现登录方案", path: "/java/基于Session方案实现登录方案" },
+                            { title: "基于Redis实现共享session登录", path: "/java/基于Redis实现共享session登录" }
                         ]
                     },
                   
