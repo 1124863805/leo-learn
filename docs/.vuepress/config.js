@@ -26,7 +26,7 @@ module.exports = {
                 title: "auth",
                 collapsable: true, // 不折叠
                 children: [
-                    { title: "Redis安装", path: "/权限管理系统/品达通用权限系统讲义" }
+                    { title: "品达通用权限系统讲义", path: "/权限管理系统/品达通用权限系统讲义" }
                 ],
             },
             {
